@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7a517e8a-f9f5-401e-8a15-b1833a3a3341": {
+      "ProjectGuid": "7a517e8a-f9f5-401e-8a15-b1833a3a3341",
+      "DisplayName": "Blf_export_data",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,621 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+VAL_TABLE_ Ditital_Output 1 "inactive" 0 "active" ;
+VAL_TABLE_ Digital_Input 1 "inactive" 0 "active" ;
+
+
+BO_ 2147551019 CI_AI_DO_01: 8 Vector__XXX
+ SG_ CH7_Voltage : 48|16@1- (0.008862,-0.04431) [0|33] "V" Vector__XXX
+ SG_ CH6_Voltage : 32|16@1- (0.008862,-0.04431) [0|33] "V" Vector__XXX
+ SG_ CH5_Voltage : 16|16@1- (0.008862,-0.04431) [0|33] "V" Vector__XXX
+ SG_ CH4_Voltage : 0|16@1- (0.008862,-0.04431) [0|33] "V" Vector__XXX
+
+BO_ 2147485482 CI_AI_DO_00_Pack2: 8 Vector__XXX
+ SG_ Digital_Output_31 : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_30 : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_29 : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_28 : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_27 : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_26 : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_25 : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_24 : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_23 : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_22 : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_21 : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_20 : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_19 : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_18 : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_17 : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_16 : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_15 : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_14 : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_13 : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_12 : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_11 : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_10 : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_09 : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_08 : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_07 : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_06 : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_05 : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_04 : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_03 : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_02 : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_01 : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_00 : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_31 : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_30 : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_29 : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_28 : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_27 : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_26 : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_25 : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_24 : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_23 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_22 : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_21 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_20 : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_19 : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_18 : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_17 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_16 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_15 : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_14 : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_13 : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_12 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_11 : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_10 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_09 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_08 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_07 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_06 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_05 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_04 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_03 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_02 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_01 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_00 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2148534059 CI_AI_DO_00_Pack1: 8 Vector__XXX
+ SG_ CI_03 : 48|16@1- (0.0193359375,-29.8189) [0|0] "A" Vector__XXX
+ SG_ CI_02 : 32|16@1- (0.0193359375,-29.8189) [0|0] "A" Vector__XXX
+ SG_ CI_01 : 16|16@1- (0.0193359375,-29.8189) [0|0] "A" Vector__XXX
+ SG_ CI_00 : 0|16@1- (0.0193359375,-29.8189) [0|0] "A" Vector__XXX
+
+BO_ 2147485483 CI_AI_DO_00_Pack0: 8 Vector__XXX
+ SG_ CH3_Voltage : 48|16@1- (0.008862,-0.026586) [0|33] "V" Vector__XXX
+ SG_ CH2_Voltage : 32|16@1- (0.008862,-0.026586) [0|33] "V" Vector__XXX
+ SG_ CH1_Voltage : 16|16@1- (0.008862,-0.026586) [0|33] "V" Vector__XXX
+ SG_ CH0_Voltage : 0|16@1- (0.008862,-0.04431) [0|33] "V" Vector__XXX
+
+BO_ 2151745833 PWM_Count_01_08_09: 8 Vector__XXX
+ SG_ PWM_Count_09 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_08 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2150697257 PWM_Count_01_06_07: 8 Vector__XXX
+ SG_ PWM_Count_07 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_06 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2151680297 PWM_Count_00_08_09: 8 Vector__XXX
+ SG_ PWM_Count_09 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_08 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2150631721 PWM_Count_00_06_07: 8 Vector__XXX
+ SG_ PWM_Count_07 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_06 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2149648681 PWM_Count_01_04_05: 8 Vector__XXX
+ SG_ PWM_Count_05 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_04 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2149583145 PWM_Count_00_04_05: 8 Vector__XXX
+ SG_ PWM_Count_05 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_04 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2148534569 PWM_Count_00_02_03: 8 Vector__XXX
+ SG_ PWM_Count_03 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_02 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2148600105 PWM_Count_01_02_03: 8 Vector__XXX
+ SG_ PWM_Count_03 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_02 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2147551529 PWM_Count_01_00_01: 8 Vector__XXX
+ SG_ PWM_Count_01 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_00 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2147485993 PWM_Count_00_00_01: 8 Vector__XXX
+ SG_ PWM_Count_01 : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ PWM_Count_00 : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2147617066 DIDO_03: 8 Vector__XXX
+ SG_ Digital_Output_31 : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_30 : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_29 : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_28 : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_27 : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_26 : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_25 : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_24 : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_23 : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_22 : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_21 : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_20 : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_19 : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_18 : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_17 : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_16 : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_15 : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_14 : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_13 : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_12 : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_11 : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_10 : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_09 : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_08 : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_07 : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_06 : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_05 : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_04 : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_03 : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_02 : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_01 : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_00 : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_31 : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_30 : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_29 : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_28 : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_27 : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_26 : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_25 : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_24 : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_23 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_22 : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_21 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_20 : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_19 : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_18 : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_17 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_16 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_15 : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_14 : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_13 : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_12 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_11 : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_10 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_09 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_08 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_07 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_06 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_05 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_04 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_03 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_02 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_01 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_00 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2147551530 DIDO_02: 8 Vector__XXX
+ SG_ Digital_Output_31 : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_30 : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_29 : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_28 : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_27 : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_26 : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_25 : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_24 : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_23 : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_22 : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_21 : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_20 : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_19 : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_18 : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_17 : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_16 : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_15 : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_14 : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_13 : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_12 : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_11 : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_10 : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_09 : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_08 : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_07 : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_06 : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_05 : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_04 : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_03 : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_02 : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_01 : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_00 : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_31 : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_30 : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_29 : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_28 : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_27 : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_26 : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_25 : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_24 : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_23 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_22 : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_21 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_20 : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_19 : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_18 : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_17 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_16 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_15 : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_14 : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_13 : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_12 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_11 : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_10 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_09 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_08 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_07 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_06 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_05 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_04 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_03 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_02 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_01 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_00 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2147485994 DIDO_01: 8 Vector__XXX
+ SG_ Digital_Output_31 : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_30 : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_29 : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_28 : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_27 : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_26 : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_25 : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_24 : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_23 : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_22 : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_21 : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_20 : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_19 : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_18 : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_17 : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_16 : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_15 : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_14 : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_13 : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_12 : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_11 : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_10 : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_09 : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_08 : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_07 : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_06 : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_05 : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_04 : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_03 : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_02 : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_01 : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Output_00 : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_31 : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_30 : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_29 : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_28 : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_27 : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_26 : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_25 : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_24 : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_23 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_22 : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_21 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_20 : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_19 : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_18 : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_17 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_16 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_15 : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_14 : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_13 : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_12 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_11 : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_10 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_09 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_08 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_07 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_06 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_05 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_04 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_03 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_02 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_01 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Digital_Input_00 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+
+VAL_ 2147485482 Digital_Output_31 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_30 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_29 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_28 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_27 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_26 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_25 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_24 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_23 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_22 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_21 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_20 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_19 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_18 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_17 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_16 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_15 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_14 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_13 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_12 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_11 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_10 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_09 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_08 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_07 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_06 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_05 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_04 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_03 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_02 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_01 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Output_00 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_31 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_30 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_29 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_28 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_27 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_26 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_25 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_24 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_23 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_22 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_21 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_20 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_19 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_18 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_17 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_16 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_15 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_14 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_13 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_12 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_11 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_10 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_09 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_08 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_07 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_06 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_05 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_04 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_03 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_02 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_01 1 "inactive" 0 "active" ;
+VAL_ 2147485482 Digital_Input_00 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_31 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_30 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_29 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_28 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_27 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_26 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_25 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_24 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_23 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_22 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_21 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_20 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_19 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_18 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_17 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_16 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_15 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_14 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_13 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_12 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_11 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_10 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_09 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_08 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_07 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_06 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_05 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_04 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_03 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_02 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_01 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Output_00 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_31 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_30 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_29 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_28 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_27 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_26 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_25 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_24 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_23 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_22 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_21 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_20 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_19 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_18 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_17 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_16 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_15 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_14 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_13 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_12 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_11 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_10 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_09 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_08 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_07 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_06 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_05 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_04 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_03 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_02 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_01 1 "inactive" 0 "active" ;
+VAL_ 2147617066 Digital_Input_00 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_31 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_30 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_29 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_28 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_27 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_26 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_25 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_24 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_23 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_22 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_21 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_20 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_19 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_18 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_17 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_16 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_15 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_14 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_13 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_12 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_11 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_10 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_09 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_08 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_07 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_06 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_05 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_04 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_03 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_02 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_01 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Output_00 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_31 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_30 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_29 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_28 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_27 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_26 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_25 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_24 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_23 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_22 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_21 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_20 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_19 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_18 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_17 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_16 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_15 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_14 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_13 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_12 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_11 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_10 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_09 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_08 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_07 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_06 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_05 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_04 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_03 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_02 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_01 1 "inactive" 0 "active" ;
+VAL_ 2147551530 Digital_Input_00 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_31 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_30 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_29 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_28 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_27 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_26 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_25 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_24 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_23 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_22 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_21 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_20 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_19 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_18 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_17 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_16 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_15 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_14 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_13 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_12 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_11 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_10 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_09 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_08 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_07 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_06 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_05 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_04 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_03 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_02 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_01 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Output_00 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_31 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_30 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_29 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_28 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_27 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_26 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_25 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_24 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_23 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_22 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_21 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_20 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_19 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_18 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_17 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_16 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_15 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_14 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_13 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_12 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_11 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_10 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_09 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_08 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_07 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_06 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_05 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_04 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_03 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_02 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_01 1 "inactive" 0 "active" ;
+VAL_ 2147485994 Digital_Input_00 1 "inactive" 0 "active" ;
+
